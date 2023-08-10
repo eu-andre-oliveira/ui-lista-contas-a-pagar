@@ -1,0 +1,25 @@
+<h2 class="title">Contas a Pagar</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Data de Vencimento</th>
+      <th>Valor</th>
+      <th>Nome da Conta</th>
+      <th>Status</th>
+      <th>Opções</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let conta of contas">
+      <td>{{ conta.dataVencimento }}</td>
+      <td>{{ conta.valor | currency }}</td>
+      <td>{{ conta.nomeConta }}</td>
+      <td>{{ conta.paga ? 'pago' : 'pendente' }}</td>
+      <td>
+        <button>Editar</button>
+        <button>Copiar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+.cabecalho {
+  background: url(/assets/images/fundo-cabecalho.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabecalho .logo {
+  width: 46%;
+  padding: 2rem 3rem;
+}
+.cabecalho p {
+  font-size: 2rem;
+  color: #dbebf2;
+}

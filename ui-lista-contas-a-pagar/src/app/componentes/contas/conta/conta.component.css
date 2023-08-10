@@ -1,0 +1,39 @@
+
+h2 {
+  color: #007BFF; /* Cor azul */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #007BFF; /* Cor azul */
+  color: white;
+}
+
+tr:hover {
+  background-color: #f2f2f2; /* Cor de fundo suave em hover */
+}
+
+button {
+  background-color: #007BFF; /* Cor azul */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Tonalidade mais escura em hover */
+}

@@ -1,0 +1,20 @@
+<section class="container criar-contas ff-inter">
+  <header class="header">
+    <h2>Adicione uma <br />conta nova:</h2>
+  </header>
+  <form>
+    <label for="nomeConta">Nome da Conta</label>
+    <input
+      type="text"
+      class="input"
+      id="nomeConta"
+      name="nomeConta"
+      placeholder="Digite a nome para identificar a conta"
+      [(ngModel)]="conta.nomeConta"
+    />
+    <div class="acoes">
+      <button (click)="criarConta()" class="botao">Salvar</button>
+      <button (click)="cancelar()" class="botao">Cancelar</button>
+    </div>
+  </form>
+</section>

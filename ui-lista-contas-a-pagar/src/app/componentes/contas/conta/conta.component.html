@@ -1,5 +1,10 @@
 <h2 class="title">Contas a Pagar</h2>
-
+<header class="header d-flex">
+  <h2 class="ff-inter"></h2>
+  <button routerLink="/criarConta" class="botaoAdicionar">
+    Adicionar pensamento
+  </button>
+</header>
 <table class="table">
   <thead>
     <tr>
@@ -13,12 +18,16 @@
   <tbody>
     <tr *ngFor="let conta of contas">
       <td>{{ conta.dataVencimento }}</td>
-      <td>{{ conta.valor | currency }}</td>
+      <td>{{ conta.valor | currency : "BRL" }}</td>
       <td>{{ conta.nomeConta }}</td>
-      <td>{{ conta.paga ? 'pago' : 'pendente' }}</td>
+      <td>{{ conta.paga ? "PAGO" : "PENDENTE" }}</td>
       <td>
-        <button>Editar</button>
-        <button>Copiar</button>
+        <button class="botao">
+          <img src="/assets/images/icone-editar.png" alt="icone de editar" />
+        </button>
+        <button class="botao">
+          <img src="/assets/images/icone-copiar.png" alt="icone de copiar" />
+        </button>
       </td>
     </tr>
   </tbody>

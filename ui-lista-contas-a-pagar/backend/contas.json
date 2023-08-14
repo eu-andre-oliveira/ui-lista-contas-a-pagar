@@ -1,0 +1,28 @@
+{
+  "contas": [
+    {
+      "id": 1,
+      "dataVencimento": "2023-09-15",
+      "valor": 150.00,
+      "nomeConta": "Aluguel",
+      "codigoBarras":"",
+      "pago": true
+    },
+    {
+      "id": 2,
+      "dataVencimento": "2023-09-20",
+      "valor": 50.00,
+      "nomeConta": "Internet",
+      "codigoBarras":"",
+      "pago": false
+    },
+    {
+      "id": 3,
+      "dataVencimento": "2023-09-25",
+      "valor": 30.00,
+      "nomeConta": "Energia Elétrica",
+      "codigoBarras":"",
+      "pago": true
+    }
+  ]
+}

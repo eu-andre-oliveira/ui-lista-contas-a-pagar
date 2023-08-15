@@ -1,5 +1,5 @@
 button {
-  background-color: #007BFF; /* Cor azul */
+  background-color: #007bff; /* Cor azul */
   color: white;
   border: none;
   padding: 5px 10px;
@@ -18,7 +18,7 @@ button {
 }
 
 .criar-contas form {
-  background: #C4EDFF;
+  background: #c4edff;
 
   border: none;
   border-radius: 20px;
@@ -51,4 +51,8 @@ button {
   margin: 5px;
   margin-top: 70px;
   width: 200px;
+}
+
+h2 {
+  color: #154580;
 }

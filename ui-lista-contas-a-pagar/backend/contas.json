@@ -3,26 +3,42 @@
     {
       "id": 1,
       "dataVencimento": "2023-09-15",
-      "valor": 150.00,
+      "valor": 150,
       "nomeConta": "Aluguel",
-      "codigoBarras":"",
+      "codigoBarras": "",
       "pago": true
     },
     {
       "id": 2,
       "dataVencimento": "2023-09-20",
-      "valor": 50.00,
+      "valor": 50,
       "nomeConta": "Internet",
-      "codigoBarras":"",
+      "codigoBarras": "",
       "pago": false
     },
     {
       "id": 3,
       "dataVencimento": "2023-09-25",
-      "valor": 30.00,
+      "valor": 30,
       "nomeConta": "Energia Elétrica",
-      "codigoBarras":"",
+      "codigoBarras": "",
       "pago": true
+    },
+    {
+      "dataVencimento": "2023-08-24",
+      "valor": 123.1,
+      "nomeConta": "conta de agua",
+      "paga": false,
+      "codigoBarras": "1268496496419641964196451",
+      "id": 4
+    },
+    {
+      "dataVencimento": "2023-09-01",
+      "valor": 55.6,
+      "nomeConta": "conta de netflix",
+      "paga": false,
+      "codigoBarras": "961616165164156515151574653",
+      "id": 5
     }
   ]
 }

@@ -22,6 +22,7 @@ export class CriarContaComponent implements OnInit {
   ngOnInit(): void {}
   criarConta() {
     this.service.criarConta(this.conta).subscribe()
+    this.router.navigate(['/conta']);
   }
 
   cancelar() {

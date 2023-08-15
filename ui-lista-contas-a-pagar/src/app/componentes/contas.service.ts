@@ -16,4 +16,12 @@ export class ContasService {
   criarConta(conta: Conta): Observable<Conta> {
     return this.http.post<Conta>(this.API, conta);
   }
+  editarConta(conta: Conta): Observable<Conta> {
+    const url = `${this.API}/${conta.id}`
+    return this.http.put<Conta>(this.API, conta);
+  }
+  buscarPorId(id: number) : Observable<Conta>{
+    const url = `${this.API}/${id}`
+    return this.http.get<Conta>(url)
+  }
 }

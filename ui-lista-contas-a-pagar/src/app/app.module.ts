@@ -8,6 +8,7 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
 import { ContaComponent } from './componentes/contas/conta/conta.component';
 import { CriarContaComponent as CriarContaComponent } from './componentes/contas/criar-conta/criar-conta.component';
 import { FormsModule } from '@angular/forms';
+import { EditarContaComponent } from './componentes/contas/editar-conta/editar-conta.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     RodapeComponent,
     ContaComponent,
     CriarContaComponent,
+    EditarContaComponent,
   ],
   imports: [
     BrowserModule,

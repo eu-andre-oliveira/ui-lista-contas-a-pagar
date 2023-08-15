@@ -1,0 +1,58 @@
+button {
+  background-color: #007bff; /* Cor azul */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.botao {
+  margin: 5px;
+  margin-top: 10px;
+  width: 70px;
+}
+
+.editar-contas {
+  padding: 2rem 0;
+}
+
+.editar-contas form {
+  background: #c4edff;
+
+  border: none;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+}
+.editar-contas form label {
+  color: #154580;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+.editar-contas form .input {
+  border: none;
+  height: 40px;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin: 0.5rem 0 2rem;
+}
+
+.acoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.botao {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
+}
+
+h2 {
+  color: #154580;
+}

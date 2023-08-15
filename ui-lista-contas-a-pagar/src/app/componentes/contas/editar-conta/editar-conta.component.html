@@ -1,4 +1,4 @@
-<section class="container criar-contas ff-inter">
+<section class="container editar-contas ff-inter">
   <header class="header">
     <h2>Adicione uma <br />conta nova:</h2>
   </header>
@@ -19,7 +19,6 @@
       class="input"
       id="valor"
       name="valor"
-      currency="BRL"
       placeholder="Valor da conta"
       [(ngModel)]="conta.valor"
     />
@@ -47,7 +46,7 @@
       [(ngModel)]="conta.codigoBarras"
     />
     <div class="acoes">
-      <button (click)="criarConta()" class="botao">Salvar</button>
+      <button (click)="editarConta()" class="botao">Salvar</button>
       <button (click)="cancelar()" class="botao">Cancelar</button>
     </div>
   </form>
